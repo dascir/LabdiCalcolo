@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x= np.linspace(-4,4,50,endpoint=True)
+y= x *x
+plt.plot(x,y, 'o')
+plt.show()
